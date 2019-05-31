@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* nav */
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 25px;
+  line-height: 3px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  padding-left: 15px;
+  font-size: 0.9em;
+}
+
+.top-links {
+  display: block;
+  float: right;
+  padding: 0 0;
+  margin: 0 10px 0 0;
+  font-size: 0.9em;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 30px 0 0;
+  position: relative;
+  bottom: 8px;
+}
+
+.heart {
+  padding-right: 10px;
+  font-size: 0.9em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+/* header */
+
+.header {
+  background-image: url("images/city-scape.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+}
+
+.header h1, p {
+  color: white;
+}
+
+.header-top {
+  width: 100vw;
+  padding: 0;
+  line-height: 50px;
+}
+
+.header-links {
+  display: inline-block;
+  color: rgb(211, 222, 228);
+  margin: 10px 0 0 0;
+}
+
+.header-links li {
+  display: inline-block;  
+}
+
+.header-links a {
+  color: rgb(211, 222, 228);
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0 0 0;
+}
+
+.col {
+  width: 8vw;
+  float: left;
+  padding: 0 10px 0 10px;
+}
+
+.col-middle {
+  width: 76vw;
+  float: left;
+}
+
+.col-3 {
+  width: 12vw;
+  float: right;
+  padding: 0 1px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.icon {
+  width: 50px;
+}
+
+.bear-icon {
+  width: 35px;
+  vertical-align: middle;
+  margin: 0 0 0 2px;
+}
+
+.form-search input {
+  color: rgb(211, 222, 228);
+  border: 1px solid rgb(76, 117, 140);
+  border-radius: 2px;
+  background-color: rgb(31, 82, 111);
+  padding: 5px 15px;
+  width: 70vw;
+  height: 40px;
+  margin: 0 0 0 10px;
+}
+
+.form-search button {
+  color: rgb(211, 222, 228);
+  border: 1px solid rgb(76, 117, 140);
+  border-radius: 2px;
+  background-color: rgb(31, 82, 111);
+  height: 52px;
+  margin: 0 -1px;
+}
+
+.header-bottom {
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.header-bottom p {
+  width: 32vw;
+  height: 100px;
+}
+
+.signup-button {
+  color: white;
+  border-radius: 2em;
+  padding: 10px 30px;
+  margin: 25px 0 0 0;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: lighter;
+  color: white;
+}
+
+/* orgs */
+
+.orgs-container {
+  background-color: rgb(39, 53, 71);
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.orgs-subcontainer {
+  width: 65vw;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.col-1 {
+  width: 32vw;
+  float: left;
+  padding: 0 10px 0 10px;
+  margin-right: 60px;
+}
+
+.col-2 h2 p button br {
+  width: 33vw; 
+}
+
+.col-2 li {
+  color: white;
+  line-height: 2.1em;
+  margin-top: -20px;
+  padding: 0 0 15px 0;
+}
+
+.col-2 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* install npm */
+
+.npm-outer-container {
+  background-image: url("images/npm-is-BOXES.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.npm-inner-container {
+  width: 65vw;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.npm-content {
+  width: 25vw;
+  margin: 30px 0;
+}
+
+/* bulding blocks */
+
+#building-blocks h2 {
+  color: rgb(83, 88, 98);
+}
+
+#building-blocks p {
+  color: rgb(135, 145, 156);
+}
+
+.bb-container {
+  text-align: center;
+  width: 65vw;
+  margin: 0 auto;
+  padding: 20px 0 50px 0;
+}
+
+.bb-heading {
+  width: 100%;
+}
+
+.bb-bottom {
+  width: 100%;
+  margin: 0 0 20px 0; 
+}
+
+.boxes {
+  width: 33%;
+  margin: 0 auto;
+  float: left;
+}
+
+.boxes a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;  
+}
+
+.boxes p {
+  width: 80%;
+  margin: 0 auto;
+}
